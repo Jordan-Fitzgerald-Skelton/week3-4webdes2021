@@ -1,0 +1,36 @@
+body{
+  /*background-color: blue;*/
+}
+h1{
+position: relative;
+background-color: red;
+}
+h3{
+  text-align: center;
+}
+/*
+p{
+  position: relative;
+  top: 20px;
+  left:100px;
+}
+*/
+div{
+  width: 200px;
+}
+.indent{
+  /*pointer-events: relative;*/
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  background-color: blue;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.clear{
+  clear:both;
+}

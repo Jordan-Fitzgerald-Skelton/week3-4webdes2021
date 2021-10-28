@@ -1,0 +1,36 @@
+
+#wrapper {
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+/*used to create a bar around the header*/
+.head{
+  height: 50px;
+  background-color: gray;
+  height:
+}
+/*used to make a sidebar and move it to the left*/
+.sidebar{
+  width: 15%;
+  float: left;
+  background-color: blue;
+  height: 550px;
+  color: white;
+}
+/* sets and image as the background*/
+.main{
+  width: 85%;
+  background-color: yellow;
+  float: right;
+  height: 550px;
+  background-image: url(../image/OIP.png)
+}
+/*sets the size of the image*/
+.pic{
+  width: 100px;
+  heeight: 100px;
+}
+a{
+  color: white;
+}

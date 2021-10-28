@@ -1,0 +1,110 @@
+/*
+*/
+#wrapper{
+  width: 90%;
+  margin: auto;
+}
+.header {
+  background-color: #B2F3EE;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+}
+.sidebar{
+  float: left;
+  width: 20%;
+  background-color: #f7347a;
+  height: 500px;
+}
+.main{
+  float: right;
+  width: 80%;
+  height: 500px;
+  background-image: url(../image/star.png) ;
+
+}
+img{
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 980px) {
+#wrapper {
+width: 95%;
+}
+.main {
+width: 65%;
+}
+.sidebar {
+width: 30%;
+}
+@media screen and (max-width: 980px) {
+#wrapper {
+width: 95%;
+}
+.main {
+width: 65%;
+}
+.sidebar {
+width: 30%;
+}
+@media screen and (max-width: 980px) {
+#wrapper {
+width: 95%;
+}
+.main {
+width: 65%;
+}
+.sidebar {
+width: 30%;
+}
+@media screen and (max-width:980px){
+  #wrapper {
+  width: 95%;
+  }
+  .main {
+  width: 65%;
+  }
+  .sidebar {
+  width: 30%;
+}
+}
+@media screen and (max-width: 700px) {
+.main {
+width: auto;
+float: none;
+
+
+
+}
+.sidebar {
+width: auto;
+float: none;
+height: 100px;
+
+}
+
+
+.sml{
+width: 150px;
+height: 150px;
+
+}
+@media screen and (max-width: 700px) {
+.main {
+width: auto;
+float: none;
+}
+.sidebar {
+width: auto;
+float: none;
+height: 100px;
+
+}
+.sml{
+  width: 150px;
+  height: 150px
+}
+}
